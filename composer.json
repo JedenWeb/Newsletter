@@ -2,7 +2,6 @@
 	"name": "jedenweb/newsletter",
 	"type": "library",
 	"description": "Newsletter subscription for Nette Framework",
-	"keywords": ["nette", "modular"],
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
 		{
@@ -13,6 +12,10 @@
 		"issues": "https://github.com/JedenWeb/Newsletter/issues"
 	},
 	"require": {
-		"nette/nette": "dev-master"
+		"nette/nette": "2.1.x",
+		"kdyby/events": "1.2.x"
+	},
+	"require-dev": {
+		"nette/tester": "1.0.x"
 	}
 }

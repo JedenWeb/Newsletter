@@ -6,9 +6,6 @@ Newsletter subscription for [Nette Framework](http://nette.org/)
 
 ## Instalation
 
-The best way to install jedenweb/newsetter is using  [Composer](http://getcomposer.org/):
-
-
 ```json
 {
 	"require": {
