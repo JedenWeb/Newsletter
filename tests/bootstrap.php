@@ -11,8 +11,6 @@ Tester\Environment::setup();
 
 \Tester\Helpers::purge(__DIR__ . '/temp');
 
-//Nette\Diagnostics\Debugger::enable(FALSE, __DIR__ . '/temp');
-
 $configurator = new Nette\Configurator;
 $configurator->setDebugMode(FALSE);
 $configurator->setTempDirectory(__DIR__ . '/temp');
