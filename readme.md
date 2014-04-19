@@ -1,7 +1,5 @@
 # Newsletter
 
-** This is not ready to use at all **
-
 Newsletter subscription for [Nette Framework](http://nette.org/)
 
 ## Instalation
@@ -9,7 +7,7 @@ Newsletter subscription for [Nette Framework](http://nette.org/)
 ```json
 {
 	"require": {
-		"jedenweb/newsletter": "dev-master"
+		"jedenweb/newsletter": "1.0"
 	}
 }
 ```
