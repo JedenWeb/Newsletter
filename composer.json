@@ -11,6 +11,9 @@
 	"support": {
 		"issues": "https://github.com/JedenWeb/Newsletter/issues"
 	},
+	"autoload": {
+	  "classmap": ["src/"]
+	},
 	"require": {
 	  	"nette/application": "^2.2",
 	  	"nette/di": "^2.2",
