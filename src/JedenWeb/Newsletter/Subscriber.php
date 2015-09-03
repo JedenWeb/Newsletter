@@ -26,8 +26,8 @@ abstract class Subscriber extends \Nette\Object implements \Kdyby\Events\Subscri
 	final public function getSubscribedEvents()
 	{
 		return array(
-			'JedenWeb\Newsletter\SubscriptionDispatcher::onSubscribe',
-			'JedenWeb\Newsletter\SubscriptionDispatcher::onUnsubscribe',
+			'JedenWeb\Newsletter\SubscriptionDispatcher::onSubscribe' => 'subscribe',
+			'JedenWeb\Newsletter\SubscriptionDispatcher::onUnsubscribe' => 'unsubscribe',
 		);
 	}
 
