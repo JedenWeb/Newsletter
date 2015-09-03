@@ -54,8 +54,7 @@ class NewsletterForm extends Nette\Application\UI\Form
 			->setEmptyValue('@');
 
 		$this->addSubmit('submit', 'Odeslat');
-		
-		$that = $this;
+
 		$this->onSuccess[] = $this->handleSuccess;
 	}
 	

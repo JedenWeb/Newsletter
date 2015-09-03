@@ -11,13 +11,8 @@ use Nette;
 class NewsletterExtension extends Nette\DI\CompilerExtension
 {
 
-	/** @var array */
-	private $defaults = array();
-
-
 	public function loadConfiguration()
 	{
-		$config = $this->getConfig($this->defaults);
 		$container = $this->getContainerBuilder();
 
 		$container->addDefinition($this->prefix('dispatcher'))
