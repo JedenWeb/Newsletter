@@ -55,7 +55,7 @@ class NewsletterForm extends Nette\Application\UI\Form
 
 		$this->addSubmit('submit', 'Odeslat');
 
-		$this->onSuccess[] = $this->handleSuccess;
+		$this->onSuccess[] = [$this, 'handleSuccess'];
 	}
 	
 	

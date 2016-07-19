@@ -3,6 +3,9 @@
 namespace JedenWeb\Newsletter;
 
 /**
+ * @method void onSubscribe($email)
+ * @method void onUnsubscribe($email)
+ *
  * @author Pavel Jurásek <jurasekpavel@ctyrimedia.cz>
  */
 class SubscriptionDispatcher extends \Nette\Object
