@@ -8,8 +8,10 @@ namespace JedenWeb\Newsletter;
  *
  * @author Pavel Jurásek <jurasekpavel@ctyrimedia.cz>
  */
-class SubscriptionDispatcher extends \Nette\Object
+class SubscriptionDispatcher
 {
+
+	use \Nette\SmartObject;
 	
 	/** @var array */
 	public $onSubscribe;

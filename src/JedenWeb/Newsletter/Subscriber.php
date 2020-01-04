@@ -5,8 +5,10 @@ namespace JedenWeb\Newsletter;
 /**
  * @author Pavel Jurásek <jurasekpavel@ctyrimedia.cz>
  */
-abstract class Subscriber extends \Nette\Object implements \Kdyby\Events\Subscriber
+abstract class Subscriber implements \Kdyby\Events\Subscriber
 {
+
+	use \Nette\SmartObject;
 
 	/**
 	 * @param string
